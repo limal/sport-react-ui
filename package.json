@@ -1,0 +1,43 @@
+{
+  "name": "sport-react-ui",
+  "version": "1.0.0",
+  "description": "An example app built in React.js",
+  "main": "main.js",
+  "dependencies": {
+    "babel-core": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "flux": "^2.1.1",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^3.4.2",
+    "re-base": "^1.5.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1",
+    "resolve-url-loader": "^1.4.3",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limal/sport-react-ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limal/sport-react-ui.git/issues"
+  },
+  "homepage": "https://github.com/limal/sport-react-ui.git#readme",
+  "devDependencies": {
+    "npm-install-webpack-plugin": "^3.0.0"
+  }
+}
