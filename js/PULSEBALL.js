@@ -55,7 +55,12 @@ export default class PULSEBALL {
 		return this.ranking.filter(t => t.team.name === name)[0].team;
 	}
 
+	getAllTeams() {
+		return this.ranking.map(t => t.team);
+	}
+
 	sortTeams() {
 		this.ranking = this.ranking.sort((a, b) => b.team.pts - a.team.pts);
+		this.ranking.forEach((t, index) => t.team.pos = index + 1); // update current team positions
 	}
 }

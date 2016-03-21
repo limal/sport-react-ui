@@ -20,11 +20,13 @@ describe('PULSEBALL', function () {
 	});
 
 	describe('addMatch', function() {
-		it('should calculate correct ratings', function() {
+		it('should calculate correct ratings and positions', function() {
 			pulseball.init(initialRanking);
 			pulseball.addMatch(franceEnglandMatch);
 			expect(pulseball.getTeam("England").pts).to.equal(53.68);
+			expect(pulseball.getTeam("England").pos).to.equal(3);
 			expect(pulseball.getTeam("France").pts).to.equal(51.59);
+			expect(pulseball.getTeam("France").pos).to.equal(4);
 		});
 	});
 });
