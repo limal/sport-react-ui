@@ -2,8 +2,8 @@ var webpack = require('webpack');
 
 module.exports = function (config) {
   config.set({
-    browsers: ['PhantomJS'],
-    singleRun: true,
+    browsers: ['Chrome'],
+    singleRun: false,
     frameworks: ['mocha', 'chai'],
     files: [
       './test/main.js'
