@@ -38,9 +38,9 @@
   },
   "homepage": "https://github.com/limal/sport-react-ui.git#readme",
   "devDependencies": {
-    "npm-install-webpack-plugin": "^3.0.0",
-    "expect": "^1.15.2",
+    "chai": "^3.5.0",
     "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.2",
     "karma-cli": "^0.1.2",
     "karma-mocha": "^0.2.2",
@@ -48,6 +48,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
     "mocha": "^2.4.5",
+    "npm-install-webpack-plugin": "^3.0.0",
     "phantomjs-prebuilt": "^2.1.6"
   }
 }

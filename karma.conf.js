@@ -4,7 +4,7 @@ module.exports = function (config) {
   config.set({
     browsers: ['PhantomJS'],
     singleRun: true,
-    frameworks: ['mocha'],
+    frameworks: ['mocha', 'chai'],
     files: [
       './test/main.js'
     ],
