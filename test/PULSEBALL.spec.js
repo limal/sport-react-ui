@@ -12,8 +12,8 @@ describe('PULSEBALL', function () {
 		expect(pulseball.init(initialRanking)).to.be.an('array');
 	});
 
-	it('should throw an error if there\'s a syntax error in JSON file'), function() {
-		var brokenInitialRanking = intialRanking + '@#///$DSjk';
-		expect(pulseball.init(brokenInitialRanking)).to.throw(SyntaxError);
-	}
+	it('should throw an error if there\'s a syntax error in JSON file', function() {
+		var brokenInitialRanking = initialRanking + '@'; // add a random character to the JSON
+		expect(() => pulseball.init(brokenInitialRanking)).to.throw();
+	});
 });
